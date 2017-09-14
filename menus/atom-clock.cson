@@ -13,8 +13,8 @@
           'command': 'atom-clock:utc-mode'
         },
         {
-          'label': 'Toggle Bold Text'
-          'command': 'atom-clock:boldText'
+          'label': 'Toggle bold text'
+          'command': 'atom-clock:bold-text'
         }
       ]
     ]

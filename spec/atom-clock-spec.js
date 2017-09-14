@@ -100,6 +100,7 @@ describe('Atom Clock', () => {
     atom.commands.dispatch(document.querySelector('atom-workspace'), 'atom-clock:utc-mode')
     expect(AtomClock.atomClockView.showUTC).toBe(false)
   })
+  
   it('should toggle bold text', () => {
     atom.commands.dispatch(document.querySelector('atom-workspace'), 'atom-clock:boldText')
     expect(AtomClock.atomClockView.showBoldText).toBe(true)
